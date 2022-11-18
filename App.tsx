@@ -1,10 +1,12 @@
+import React from 'react'
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import "./app"
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Pull up!</Text>
+      <Text className={'text-red-500'}>Paull up!</Text>
       <StatusBar style="auto" />
     </View>
   );
