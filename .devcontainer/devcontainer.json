@@ -1,12 +1,12 @@
 {
 	"name": "Node.js & TypeScript",
-	"dockerFile": "Dockerfile",
+	"dockerFile": "Dockerfile"
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g expo-cli"
+	// "postCreateCommand": ["curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc","sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null","echo 'deb https://ngrok-agent.s3.amazonaws.com buster main'","sudo tee /etc/apt/sources.list.d/ngrok.list","sudo apt update && sudo apt install ngrok"]
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
